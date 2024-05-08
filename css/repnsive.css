@@ -1,0 +1,79 @@
+@media screen and (max-width: 800px) {
+  .fa-bars {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    color: #d68183;
+    left: 10%;
+  }
+  .fa-bars:hover .menu_bar {
+    display: flex !important;
+  }
+  .fa-bars:hover .fa-x {
+    display: block !important;
+  }
+  .fa-magnifying-glass {
+    display: block !important;
+  }
+  .logo {
+    position: absolute;
+    top: -4px;
+    left: 30%;
+  }
+  .menu {
+    display: none !important;
+  }
+  .fa-heart {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    display: none;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+  }
+  .right_menu {
+    padding-top: 4% !important;
+  }
+  .promotion {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .promotion .img-box {
+    width: 100% !important;
+  }
+  .featured .img-judy {
+    width: 50%;
+  }
+  .featured .img-judy img {
+    display: block;
+  }
+  .featured .img-judy button {
+    display: block;
+  }
+  .featured :last-child {
+    display: none;
+  }
+  .view_all {
+    width: 25%;
+  }
+  .footer_list {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer_item {
+    width: 50% !important;
+  }
+  .footer_items {
+    width: 50%;
+  }
+  .add_pay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=repnsive.css.map */

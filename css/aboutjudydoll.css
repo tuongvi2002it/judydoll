@@ -1,0 +1,52 @@
+.about_content {
+  position: relative;
+  height: 300px;
+}
+
+.brand_story {
+  align-items: center;
+  width: 20%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  gap: 10px;
+}
+.brand_story p {
+  font-weight: normal;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.brand_story a {
+  font-weight: normal;
+  color: black;
+}
+.brand_story .add_links {
+  gap: 10px;
+}
+
+.profile_brand {
+  text-align: center;
+  padding-top: 5%;
+  align-items: center;
+}
+.profile_brand h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.profile_brand hr {
+  width: 20%;
+}
+
+.prf_content-left {
+  padding: 6%;
+  background-color: #f5f1f1;
+}
+.prf_content-left h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.prf_content-left p {
+  font-size: 18px;
+}/*# sourceMappingURL=aboutjudydoll.css.map */
