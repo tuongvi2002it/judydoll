@@ -7,6 +7,7 @@
 //cọ make up 40
 //bông mút 41
 // chì kẻ mày  42-43
+//hightlight 44
 let dataProducts = [
     {
         id: 36,
@@ -108,7 +109,7 @@ let dataProducts = [
     },
 
     {
-        id: 10,
+        id: 45,
         name: "5 Shades Concealer Palette - #01 Light Tone",
         price: 275000,
 
@@ -164,7 +165,7 @@ let dataProducts = [
     },
     
     {
-        id: 10,
+        id: 46,
         name: "Phấn Che Chân Tóc Hair Shadow  ",
         price: 215000,
 
@@ -173,7 +174,7 @@ let dataProducts = [
     },
     
     {
-        id: 10,
+        id: 44,
         name: " Highlight QuickGlide Eyeshadow Pen (Black) ",
         price: 130000,
 
@@ -200,7 +201,7 @@ let dataProducts = [
     },
     
     {
-        id: 10,
+        id: 47,
         name: "GLAZED BEAUTY-Monochromatic Highlight ",
         price: 250000,
 
@@ -321,7 +322,7 @@ let dataProducts = [
         hover_img: "https://judydoll.com/cdn/shop/products/4_607f67a4-80ac-400e-aade-03c9d8a99ae1_360x.jpg?v=1682661630"
     },
     {
-        id: 10,
+        id: 48,
         name: "Starlight Highlight Powder ",
         price: 215000,
 
@@ -366,7 +367,7 @@ let dataProducts = [
     },
     
     {
-        id: 10,
+        id: 49,
         name: "Dual-Color Highlight - #01 Cold Moonlight",
         price: 180000,
 
@@ -384,7 +385,7 @@ let dataProducts = [
     },
     
     {
-        id: 10,
+        id: 50,
         name: "Highlight & Contour Duo - #01 Cold",
         price: 165000,
 
