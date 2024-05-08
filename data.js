@@ -13,7 +13,7 @@ let dataProducts = [
         id: 36,
         name: "Phấn Phủ Duo Color Long  - #00 Bouncy Pink",
         price: 159000,
-
+typePrd:"Phấn Phủ",
         main_img: "https://judydoll.com/cdn/shop/files/1_5_e1349bce-5e28-4539-b7d4-24e9553e0fe9_360x.webp?v=1714286146",
         hover_img: "https://judydoll.com/cdn/shop/files/1_12_f026801b-d64b-4388-927f-e3b1fc3b9191_360x.webp?v=1714286145"
     },
@@ -21,7 +21,7 @@ let dataProducts = [
         id: 38,
         name: "Kem Nền Oil Skin Foundation - #P00",
         price: 320000,
-
+typePrd:"Kem Nền",
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1_98cf6786-88ba-47b8-bd0a-dadd9f4bdcba_360x.webp?v=1713942403",
         hover_img: "https://judydoll.com/cdn/shop/files/10_6_360x.webp?v=1713942405"
     },
@@ -29,7 +29,7 @@ let dataProducts = [
         id: 29,
         name: "Phấn Má GLAZED BEAUTY - #01  Morus",
         price: 179000,
-
+typePrd:"Phấn Má",
         main_img: "https://judydoll.com/cdn/shop/files/800_fe6637cd-950c-44ef-ae94-9081c13a4fb8_360x.webp?v=1713253588",
         hover_img: "https://judydoll.com/cdn/shop/files/2-800_b200001f-a290-47e7-997f-fc7c2590fbed_360x.webp?v=1713253586"
     },
@@ -37,7 +37,7 @@ let dataProducts = [
         id: 13,
         name: "Phấn Mắt GLAZED BEAUTY- #01  Peach",
         price: 320000,
-
+        typePrd: "Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/files/800_55bf8d0d-a365-48cc-97d9-fcfd627c44f8_360x.webp?v=1713261862",
         hover_img: "https://judydoll.com/cdn/shop/files/01_29f0c6ac-6675-48ce-8747-24cd9b195ca3_360x.webp?v=1713261860"
     },
@@ -45,7 +45,7 @@ let dataProducts = [
         id: 18,
         name: "Cushion Comb Brow Mascara - #000 Clear",
         price: 220000,
-
+typePrd:"Masacra",
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1_20f65e5c-1112-48c6-b2c6-0b4700a298fd_360x.webp?v=1713252672",
         hover_img: "https://judydoll.com/cdn/shop/files/1-1_360x.webp?v=1713252671"
     },
@@ -53,6 +53,7 @@ let dataProducts = [
         id: 1,
         name: "Son Blurwater Lip Tint - M03 Baked Rose ",
         price: 319000,
+        typePrd: "Son",
 
         main_img: "https://judydoll.com/cdn/shop/files/1_5_4fd5c2f0-d78e-4bc9-b8da-c6e5b39a5f3b_360x.webp?v=1713262696",
         hover_img: "https://judydoll.com/cdn/shop/files/5-min_e9cea84d-4d25-49e9-adb8-62afd527522e_360x.jpg?v=1713262696"
@@ -61,6 +62,7 @@ let dataProducts = [
         id: 30,
         name: "Phấn Má  Fusion Blush Cream - #01 Cloud Cake",
         price: 149000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/files/1-800_574c0436-20ca-439b-b3cd-f19a54e4d85c_360x.webp?v=1711956618",
         hover_img: "https://judydoll.com/cdn/shop/files/f7640957e39d6d6ac61c344408ada48e_360x.webp?v=1711956618"
@@ -69,7 +71,7 @@ let dataProducts = [
         id: 2,
         name: "Son Little Magnet Lip Mud - #101  Light Krissu",
         price: 335000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/1_871192f8-4c49-4f37-9ac8-250e0fb0d87d_360x.webp?v=1709622729",
         hover_img: "https://judydoll.com/cdn/shop/files/18_b037cae4-2678-439d-86b6-9b24f1c15ecb_360x.webp?v=1709622731"
     },
@@ -94,6 +96,7 @@ let dataProducts = [
         id: 37,
         name: "Phấn Phủ Marathon Setting Powder",
         price: 255000,
+        typePrd:"Phấn Phủ",
 
         main_img: "https://judydoll.com/cdn/shop/files/800-1_73468b2b-1148-4297-9a28-36e1c9043045_360x.webp?v=1709628317",
         hover_img: "https://judydoll.com/cdn/shop/files/c053b83935c3c991490b3b1251f9c7c6_360x.webp?v=1709628316"
@@ -103,7 +106,7 @@ let dataProducts = [
         id: 14,
         name: "Phấn Mắt 5 Shades Eyebrow Detail Palette",
         price: 270000,
-
+        typePrd: "Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/files/3_26ca5809-3c62-4ef9-b6de-bcf1f0e5f484_360x.webp?v=1706166057",
         hover_img: "https://judydoll.com/cdn/shop/files/B01_360x.webp?v=1706169575"
     },
@@ -121,7 +124,7 @@ let dataProducts = [
         id: 24,
         name: "Eyeliner Cushion Cream - #01 Black",
         price: 210000,
-
+        typePrd: "Eyeliner",
         main_img: "https://judydoll.com/cdn/shop/files/1_a4881e04-517f-447c-ba48-be111f605e01_360x.webp?v=1705917262",
         hover_img: "https://judydoll.com/cdn/shop/files/5_8931c08c-4d6d-434e-8762-fc3fefc38d73_360x.webp?v=1705917261"
     },
@@ -139,7 +142,7 @@ let dataProducts = [
         id: 3,
         name: "Son Ice Watery Gloss-A/W - #05 Sunset ",
         price: 197000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/judydollIceWateryLipGloss_4_337c3b40-c976-45a7-a444-8db87fc265ba_360x.webp?v=1704867998",
         hover_img: "https://judydoll.com/cdn/shop/files/judydollIceWateryLipGloss_6_22a5eaa3-2fe0-4ded-a4dc-eca5d07909c4_360x.webp?v=1704867998"
     },
@@ -148,7 +151,7 @@ let dataProducts = [
         id: 4,
         name: "Son Hug Series-Cushion Lip Powder Cream ",
         price: 230000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_2_360x.webp?v=1702979825",
         hover_img: "https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_1_360x.webp?v=1702979825"
     },
@@ -177,7 +180,7 @@ let dataProducts = [
         id: 44,
         name: " Highlight QuickGlide Eyeshadow Pen (Black) ",
         price: 130000,
-
+typePrd:"Highlight",
         main_img: "https://judydoll.com/cdn/shop/files/800-2_1dc05c84-34a1-4bff-a45c-49b8a9bd0f07_360x.webp?v=1694423699",
         hover_img: "https://judydoll.com/cdn/shop/files/a9d19422fb3663d572adf3009db9fdff_b811724a-7502-47d8-b753-265c7e37b536_360x.webp?v=1694423702"
     },
@@ -186,6 +189,7 @@ let dataProducts = [
         id: 19,
         name: "Volume & Curling Mascara Duo ",
         price: 117000,
+        typePrd:"Masacra",
 
         main_img: "https://judydoll.com/cdn/shop/files/1-800_360x.webp?v=1694423148",
         hover_img: "https://judydoll.com/cdn/shop/files/c758ba9845f58cd965fc5b8e25ba47aa_360x.webp?v=1694423147"
@@ -195,6 +199,7 @@ let dataProducts = [
         id: 39,
         name: "Kem Nền Icy Americano Oil Control Primer",
         price: 290000,
+        typePrd:"Kem Nền",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_a392fe01-7ba0-4909-8624-66c5ca70453d_360x.webp?v=1709619302",
         hover_img: "https://judydoll.com/cdn/shop/files/909eaebc65ccd26ec4b3dfcf9e76c5dc_360x.webp?v=1709619302"
@@ -204,6 +209,7 @@ let dataProducts = [
         id: 47,
         name: "GLAZED BEAUTY-Monochromatic Highlight ",
         price: 250000,
+        typePrd:"Highlight",
 
         main_img: "https://judydoll.com/cdn/shop/files/800-1_c2fa1d67-9f58-4f95-80df-4f89d4730b5a_360x.webp?v=1713419700",
         hover_img: "https://judydoll.com/cdn/shop/files/800-2_8c8b2739-8102-41a5-90cc-c643e6caba76_360x.webp?v=1713419700"
@@ -213,7 +219,7 @@ let dataProducts = [
         id: 15,
         name: "Phấn Mắt GLAZED BEAUTY Palette ",
         price: 320000,
-
+        typePrd: "Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/files/800_4880c120-81a6-47e6-8522-b6601276ee9b_360x.webp?v=1713420522",
         hover_img: "https://judydoll.com/cdn/shop/files/1_66639409-9e3f-42fe-85ca-754cd0628ab8_360x.webp?v=1713420522"
     },
@@ -222,6 +228,7 @@ let dataProducts = [
         id: 25,
         name: "Ultra-fine Eyeliner Gel Pen - #01 Black Brown ",
         price: 140000,
+        typePrd: "Eyeliner",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_1_1149160b-96a0-4001-bc93-94b338c468c8_360x.webp?v=1713781077",
         hover_img: "https://judydoll.com/cdn/shop/files/800_2_7bf84c50-fd8f-4d0a-9415-ae5cc35fadbb_360x.webp?v=1713781075"
@@ -231,7 +238,7 @@ let dataProducts = [
         id: 5,
         name: "Son Ice Watery Lip Gloss #01  Vibrant",
         price: 220000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/800-_-min_5fdff923-3424-40c2-ad30-0e8a4f0d2a20_360x.jpg?v=1704867661",
         hover_img: "https://judydoll.com/cdn/shop/files/min_b97155be-d585-4d47-91c4-cf010b86e675_360x.jpg?v=1704867661"
     },
@@ -239,6 +246,7 @@ let dataProducts = [
         id: 26,
         name: "Dual-Headed Under Eye Makeup Eyeliner",
         price: 210000,
+        typePrd: "Eyeliner",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1-min-1_360x.jpg?v=1688977702",
         hover_img: "https://judydoll.com/cdn/shop/files/800_800-2-min-1_360x.jpg?v=1688977702"
@@ -247,6 +255,7 @@ let dataProducts = [
         id: 27,
         name: "Creamy Gel Liner Eyeliner Pencil",
         price: 240000,
+        typePrd: "Eyeliner",
 
         main_img: "https://judydoll.com/cdn/shop/products/800-1-min_e94409a1-970f-40d4-8813-3561eabf8cb2_360x.jpg?v=1682060370",
         hover_img: "https://judydoll.com/cdn/shop/products/22_f5cd9adb-e525-4956-909a-bff5305b7168_360x.jpg?v=1682060370"
@@ -255,6 +264,7 @@ let dataProducts = [
         id: 28,
         name: "2 In 1 Eyeliner Eyebrow Gel",
         price: 190000,
+        typePrd: "Eyeliner",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1-min_1c707c21-2c78-46b1-9ed2-9b55b2664f01_360x.jpg?v=1688961961",
         hover_img: "https://judydoll.com/cdn/shop/files/800_800-4-min_535933fb-76b6-408e-b8c5-c512979f48a9_360x.jpg?v=1688961989"
@@ -263,7 +273,7 @@ let dataProducts = [
         id: 6,
         name: "Son Sweety Lip Jelly - N00 Nude Brown ",
         price: 240000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/1-800_4b604ac3-8f06-4e13-87eb-257801f60bc8_360x.jpg?v=1705386893",
         hover_img: "https://judydoll.com/cdn/shop/files/W08_360x.jpg?v=1705386893"
     },
@@ -272,7 +282,7 @@ let dataProducts = [
         id: 7,
         name: "Son Mirror Tea Jelly Light - #B10 Persimmon",
         price: 245000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/products/2_2b62e3f3-c060-4b6f-af42-3afcd905018d_360x.jpg?v=1682655966",
         hover_img: "https://judydoll.com/cdn/shop/products/1_f58ae10e-9cd1-4efc-ad2e-6b23da41cf73_360x.jpg?v=1682655966"
     },
@@ -290,7 +300,7 @@ let dataProducts = [
         id: 9,
         name: "Son Watery Glow Lipstick - #04 Jelly",
         price: 335000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/2-min_8fea7c40-3121-4161-bd29-e674ba5643ac_360x.jpg?v=1682665599",
         hover_img: "https://judydoll.com/cdn/shop/products/1_5de1b8ef-bf0b-45ce-bdc2-35019f8ca6fd_360x.jpg?v=1682665599"
     },
@@ -308,7 +318,7 @@ let dataProducts = [
         id: 11,
         name: "Son Matte Lipstick - #01 Powder Apricot",
         price: 270000,
-
+        typePrd: "Son",
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1-min_8b8ef5cf-ca5a-4aec-bbed-cbd65dadf1bf_360x.jpg?v=1691039750",
         hover_img: "https://judydoll.com/cdn/shop/files/min_f5e38e00-5a67-4eac-bb16-268dd40e0abb_360x.jpg?v=1691039752"
     },
@@ -317,6 +327,7 @@ let dataProducts = [
         id: 31,
         name: "Phấn Má Blush Duo - #D01 Pink Coast",
         price: 125000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/products/800-1_360x.jpg?v=1682661630",
         hover_img: "https://judydoll.com/cdn/shop/products/4_607f67a4-80ac-400e-aade-03c9d8a99ae1_360x.jpg?v=1682661630"
@@ -325,6 +336,7 @@ let dataProducts = [
         id: 48,
         name: "Starlight Highlight Powder ",
         price: 215000,
+        typePrd:"Highlight",
 
         main_img: "https://judydoll.com/cdn/shop/files/1-min_52b3a976-1d37-4113-b3e5-6fa54b128ba5_360x.jpg?v=1682665655",
         hover_img: "https://judydoll.com/cdn/shop/products/30_7d71151e-d0f4-4c26-9682-dfa05401e275_360x.jpg?v=1682665655"
@@ -334,6 +346,7 @@ let dataProducts = [
         id: 32,
         name: "Phấn Má Cushion Cream Blush - #C01 Soft Coral",
         price: 189000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_360x.webp?v=1696747158",
         hover_img: "https://judydoll.com/cdn/shop/files/7aa9b238bc765e6ac8641e694ffbd757_360x.webp?v=1696747158"
@@ -342,6 +355,7 @@ let dataProducts = [
         id: 33,
         name: "Phấn Má Hug Series-Cushion Blush",
         price: 200000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/files/judydollhugseriescushionblush_22_360x.webp?v=1702977667",
         hover_img: "https://judydoll.com/cdn/shop/files/judydollhugseriescushionblush_1_360x.webp?v=1702977668"
@@ -352,6 +366,7 @@ let dataProducts = [
         id: 34,
         name: "Phấn Má Powder Blush - #01 Rich Sea Salt",
         price: 240000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/files/46_360x.webp?v=1697180585",
         hover_img: "https://judydoll.com/cdn/shop/files/1_12_213b05f0-ef19-4523-a172-2eb2b8025ce8_360x.webp?v=1697180583"
@@ -370,6 +385,7 @@ let dataProducts = [
         id: 49,
         name: "Dual-Color Highlight - #01 Cold Moonlight",
         price: 180000,
+        typePrd:"Highlight",
 
         main_img: "https://judydoll.com/cdn/shop/products/800-_-min_b279b86c-83a4-477d-9220-46d8a534aa40_360x.jpg?v=1682653810",
         hover_img: "https://judydoll.com/cdn/shop/products/19_78d0b6ac-699e-4da9-95e4-d62c431cb700_360x.jpg?v=1682653810"
@@ -379,6 +395,7 @@ let dataProducts = [
         id: 35,
         name: "Phấn Má Blush Duo - #D01 Pink Coast",
         price: 210000,
+        typePrd:"Phấn Má",
 
         main_img: "https://judydoll.com/cdn/shop/products/800_800-1_6b41c049-bf29-4bf2-9f23-e42632262c1b_360x.jpg?v=1682653697",
         hover_img: "https://judydoll.com/cdn/shop/products/10_abe36a81-23c0-4097-bf59-876cf500604b_360x.jpg?v=1682653697"
@@ -388,6 +405,7 @@ let dataProducts = [
         id: 50,
         name: "Highlight & Contour Duo - #01 Cold",
         price: 165000,
+        typePrd:"Highlight",
 
         main_img: "https://judydoll.com/cdn/shop/products/800_800-1-min_5946c686-b8fc-4398-b5a6-17e3b33f797d_360x.jpg?v=1682654392",
         hover_img: "https://judydoll.com/cdn/shop/products/9_dd00335a-e075-4889-8eb4-4e22deaf9854_360x.jpg?v=1682654392"
@@ -397,7 +415,7 @@ let dataProducts = [
         id: 16,
         name: "Phấn Mắt 5 Shades Concealer Palette",
         price: 325000,
-
+        typePrd: "Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1_30e86511-8321-4bf2-bee8-5395d456e5fb_360x.webp?v=1706085311",
         hover_img: "https://judydoll.com/cdn/shop/files/02_66b934a3-c7a5-47dd-b577-dac10b1a729a_360x.webp?v=1706085311"
     },
@@ -415,7 +433,7 @@ let dataProducts = [
         id: 17,
         name: "Phấn Mắt 10 Shades Multi-Functional Eyeshadow Palette",
         price: 320000,
-
+        typePrd: "Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/products/800-_-min_360x.png?v=1682591376",
         hover_img: "https://judydoll.com/cdn/shop/products/1_c3d845c5-62a0-493a-a907-786ab42ad299_360x.jpg?v=1682591376"
     },
@@ -423,6 +441,7 @@ let dataProducts = [
         id: 20,
         name: "Forming Refined Mascara Base Primer",
         price: 160000,
+        typePrd:"Masacra",
 
         main_img: "https://judydoll.com/cdn/shop/files/1_21ef3d19-d35e-4039-a781-c1f55023822b_360x.jpg?v=1689054325",
         hover_img: "https://judydoll.com/cdn/shop/files/2_941a5360-d639-4fc4-baef-d4c75ddcbec0_360x.jpg?v=1689054325"
@@ -431,6 +450,7 @@ let dataProducts = [
         id: 21,
         name: "2 IN 1 Eyebrow Mascara - #01 Natural Brown",
         price: 220000,
+        typePrd:"Masacra",
 
         main_img: "https://judydoll.com/cdn/shop/products/800-1-min_360x.jpg?v=1682591392",
         hover_img: "https://judydoll.com/cdn/shop/products/15_3c74f374-4f3b-4cfe-9459-770ad0b79893_360x.jpg?v=1682591392"
@@ -439,6 +459,7 @@ let dataProducts = [
         id: 22,
         name: "Mascara Remover",
         price: 180000,
+        typePrd:"Masacra",
 
         main_img: "https://judydoll.com/cdn/shop/files/1-800-min_dc32b02e-1bb3-4341-807e-7cf8bc3ce2d1_360x.jpg?v=1690426398",
         hover_img: "https://judydoll.com/cdn/shop/files/min_ef2ccfb9-b52c-4e1f-a2ef-2ed379c81428_360x.jpg?v=1690426398"
@@ -447,6 +468,7 @@ let dataProducts = [
         id: 23,
         name: "3D Curling Eyelash Iron Mascara",
         price: 220000,
+        typePrd:"Masacra",
 
         main_img: "https://judydoll.com/cdn/shop/products/800_800-1_360x.jpg?v=1682651510",
         hover_img: "https://judydoll.com/cdn/shop/files/800-1-min_3150c940-2492-4c5e-beb5-34ca5c4d7227_360x.jpg?v=1690441750"
@@ -488,33 +510,18 @@ renderProductItem(dataProducts);
 
 
 
-// Hàm lọc sản phẩm theo tên
-
 let selectFilter = document.getElementById("mySelect");
-selectFilter.addEventListener("change", filterProducts);
+selectFilter.addEventListener("changed", filterProducts);
 
-// Hàm xử lý sự kiện khi select thay đổi
+
 function filterProducts() {
-    // Lấy giá trị đã chọn từ dropdown select
-    let selectedName = selectFilter.value;
 
-    // Lọc sản phẩm dựa trên tên
-    let filteredProducts = dataProducts.filter(function(product) {
-        return selectedName === "all" || product.name === selectedName;
-    });
+  let selectedName = selectFilter.value;
+  
+  let filteredProducts = dataProducts.filter(function (product) {
+    return selectedName === product.typePrd;
+  });
 
-    // Hiển thị danh sách sản phẩm đã lọc
-    renderProducts(filteredProducts);
-}
 
-// Hàm hiển thị danh sách sản phẩm
-function renderProducts(products) {
-    let productListDiv = document.getElementById("productList");
-    productListDiv.innerHTML = "";
-
-    products.forEach(function(product) {
-        let productDiv = document.createElement("div");
-        productDiv.textContent = product.name + " VNĐ" + product.price;
-        productListDiv.appendChild(productDiv);
-    });
+  renderProductItem(filteredProducts);
 }
