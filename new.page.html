@@ -24,7 +24,7 @@
     <title>New Products</title>
 </head>
 
-
+<body>
 <div class="wrapper w-100">
     <div class="header">Free Gifts for Order $39+💄</div>
 
@@ -146,26 +146,30 @@
             </div>
             <div class="list_select d-flex">
                 <select id="mySelect" onchange="filterProducts()">
-                    <option value="" selected disabled>Chọn Sản Phẩm</option>
-                    <option value="son">Son </option>
-                    <option value="eyeliner">Eyeliner</option>
-                    <option value="phấn má">Phấn Má</option>
-                  </select>
-                  <select id="priceFilter" onchange="filterProducts()">
+                    <option value="" selected disabled>Tất Cả Sản Phẩm</option>
+                    <option value="Best Seller">Best Seller</option>
+                    <option value="Son">Son </option>
+                    <option value="Eyeliner">Eyeliner</option>
+                    <option value="Phấn Má">Phấn Má</option>
+                    <option value="Highlight">Highlight</option>
+                    <option value="Phấn Phủ">Phấn Phủ</option>
+                    <option value="Kem Nền">Kem Nền</option>
+                </select>
+                <select id="priceFilter" onchange="filterPrice()">
                     <option value="all" selected>Tất cả giá</option>
                     <option value="0-50000">Dưới 50,000</option>
                     <option value="50000-100000">Từ 50,000 đến 100,000</option>
                     <option value="100000-200000">Từ 100,000 đến 200,000</option>
                     <option value="200000">Trên 200,000</option>
-                  </select>
-                  
+                </select>
+
             </div>
 
-            
+
         </div>
         <hr>
 
-        <div class="new_content d-flex" >
+        <div class="new_content d-flex">
             <div class="new_content-left d-flex flex-column w-25">
                 <div class="categories">
                     <h3>Categories</h3>
@@ -173,30 +177,7 @@
                     <div class="list_category d-flex flex-column">
                         <a href="new.page.html">NEW</a>
                         <a href="besrseller.html">BEST SELLERS</a>
-                        <div class="dropdown">
-                            <a class="dropbtn" id="mainBtn">SHOP</a>
-                            <div class="dropdown-content" id="mainMenu">
-                                <a href="#" class="branchBtn" data-target="menu1" id="filterButton">Phấn 
-                                    <div class="submenu" id="menu1">
-                                        <a href="phanma.html">Phấn Má</a>
-                                        <a href="phanmat.html">Phấn Mắt</a>
-                                        <a href="phanphu.html">Cushion, Phấn phủ</a>
-                                    </div>
-                                </a>
-                                <a href="sontint.html" class="branchBtn" data-target="menu2">Son</a>
-
-                                
-                                <a href="#" class="branchBtn" data-target="menu3">Mắt</a>
-
-                                <div class="submenu" id="menu3">
-                                    <a href="masscara.html">Mascara</a>
-                                    <a href="eyeliner.html">Eyeliner</a>
-                                    <a href="eyebrown.html">eyebrown</a>
-                                </div>
-                            </div>
-
-
-                        </div>
+                        <a href="">SHOP</a>
                         <div class="dropdownSc">
                             <a class="dropbtn" id="mainBtnSc">EXPLORE</a>
                             <div class="dropdown-content" id="mainMenuSc">
@@ -249,13 +230,15 @@
                         <div class="single_items d-flex flex-column">
 
                             <div class="list_img">
-                                <img src="./img/hot search/hs1.png" alt="" class="single-img ">
-                                <img src="./img/hot search/hv1.png" alt="" class="hover-image">
+                                <img src="https://judydoll.com/cdn/shop/products/800_800-1_360x.jpg?v=1682651510" alt=""
+                                    class="single-img ">
+                                <img src="https://judydoll.com/cdn/shop/files/800-1-min_3150c940-2492-4c5e-beb5-34ca5c4d7227_360x.jpg?v=1690441750"
+                                    alt="" class="hover-image">
                             </div>
 
                             <div class="name_price d-flex flex-column">
-                                <p class="name_product">Blurwater Lip Tint</p>
-                                <span class="price">$16.41 USD</span>
+                                <p class="name_product">3D Curling Eyelash Iron Mascara</p>
+                                <span class="price">220000 VNĐ</span>
                                 <button>Add to cart</button>
                             </div>
                         </div>
@@ -302,176 +285,290 @@
                         </div>
                     </div>
                 </div>
+
+                <h3>Hot Search</h3>
+                <div class="list_hotpro d-flex flex-column p-4">
+
+                    <div class="hot_product d-flex">
+                        <a href="">
+                            <div class="hot_product-img">
+
+                                <img src="./img/hot search/hs2.png" alt="" class="main_img">
+                                <div class="see_more d-flex flex-column">
+                                    <img src="./img/hot search/hv2.png" alt="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <button class="add_cart">ADD TO CART</button>
+                                    <button class="quicl_view">Quick View</button>
+
+                                </div>
+                            </div>
+                            <div class="name_product">
+                                <h5>Little Magnet Lip Mud - #101 Light Krissu</h5>
+                                <div class="price">$13.99 USD</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="hot_product d-flex">
+                        <a href="">
+                            <div class="hot_product-img">
+
+                                <img src="./img/hot search/hs3.png" alt="" class="main_img">
+                                <div class="see_more d-flex flex-column">
+                                    <img src="./img/hot search/hv3.png" alt="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <button class="add_cart">ADD TO CART</button>
+                                    <button class="quicl_view">Quick View</button>
+
+                                </div>
+                            </div>
+                            <div class="name_product">
+                                <h5>Eyebrow Gel Pen - #01 Light Coffee</h5>
+                                <div class="price">$8.99 USD</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="hot_product d-flex">
+                        <a href="">
+                            <div class="hot_product-img">
+
+                                <img src="./img/hot search/hs4.png" alt="" class="main_img">
+                                <div class="see_more d-flex flex-column">
+                                    <img src="./img/hot search/hv4.png" alt="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <button class="add_cart">ADD TO CART</button>
+                                    <button class="quicl_view">Quick View</button>
+
+                                </div>
+                            </div>
+                            <div class="name_product d-flex flex-column">
+                                <h5>Marathon Setting Powder</h5>
+                                <div class="price">$10.99 USD</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="hot_product d-flex">
+                        <a href="">
+                            <div class="hot_product-img">
+
+                                <img src="./img/hot search/hs1.png" alt="" class="main_img">
+                                <div class="see_more d-flex flex-column">
+                                    <img src="./img/hot search/hv1.png" alt="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <button class="add_cart">ADD TO CART</button>
+                                    <button class="quicl_view">Quick View</button>
+
+                                </div>
+                            </div>
+                            <div class="name_product">
+                                <h5>All-In-One Face Fusion Blush Cream - #01 Cloud Cake</h5>
+                                <div class="price">$11.99 USD</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="hot_product d-flex">
+                        <a href="">
+                            <div class="hot_product-img">
+
+                                <img src="./img/hot search/hs1.png" alt="" class="main_img">
+                                <div class="see_more d-flex flex-column">
+                                    <img src="./img/hot search/hv1.png" alt="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <button class="add_cart">ADD TO CART</button>
+                                    <button class="quicl_view">Quick View</button>
+
+                                </div>
+                            </div>
+                            <div class="name_product">
+                                <h5>All-In-One Face Fusion Blush Cream - #01 Cloud Cake</h5>
+                                <div class="price">$11.99 USD</div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
             </div>
 
 
 
             <div class="new_content-right product d-flex  flex-wrap 
             " id="productList">
+
             </div>
         </div>
-                
-                    
-    </div>
-   
 
- 
-<div class="container Recently_Viewed-Products ">
-    <h3>Recently Viewed Products</h3>
-    <div class="product_list d-flex">
-    <div class="hot_product d-flex">
-        <a href="">
-            <div class="hot_product-img">
-
-                <img src="./img/hot search/pm2.png" alt="" class="main_img">
-                <div class="see_more d-flex flex-column">
-                    <img src="./img/hot search/pm2hv.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                    <button class="add_cart">ADD TO CART</button>
-                    <button class="quicl_view">Quick View</button>
-
-                </div>
-            </div>
-            <div class="name_product">
-                <h5>Bảng Phấn Tạo Khối JJUDYDOLL 5 ô</h5>
-                <div class="price">170000 đ</div>
-            </div>
-        </a>
 
     </div>
-   
-    <div class="hot_product d-flex">
-        <a href="">
-            <div class="hot_product-img">
 
-                <img src="https://judydoll.com/cdn/shop/files/1-800_970681af-1933-467d-8dd0-54e19b51636a_360x.webp?v=1706002681" alt="" class="main_img">
-                <div class="see_more d-flex flex-column">
-                    <img src="https://judydoll.com/cdn/shop/files/800_43fb9bad-4d5b-450b-b395-d0980db78028_360x.webp?v=1706002680" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                    <button class="add_cart">ADD TO CART</button>
-                    <button class="quicl_view">Quick View</button>
 
-                </div>
-            </div>
-            <div class="name_product">
-                <h5>5Pcs Cọ Make Up Chuyên Nghiệp </h5>
-                <div class="price">59000 đ</div>
-            </div>
-        </a>
 
-    </div>
-    <div class="hot_product d-flex">
-        <a href="">
-            <div class="hot_product-img">
-
-                <img src="https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_2_360x.webp?v=1702979825" alt="" class="main_img">
-                <div class="see_more d-flex flex-column">
-                    <img src="https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_1_360x.webp?v=1702979825" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                    <button class="add_cart">ADD TO CART</button>
-                    <button class="quicl_view">Quick View</button>
-
-                </div>
-            </div>
-            <div class="name_product">
-                <h5>Son JUDYDOLL RedPuppy</h5>
-                <div class="price">209000 đ</div>
-            </div>
-        </a>
-
-    </div>
-    <div class="hot_product d-flex">
-        <a href="">
-            <div class="hot_product-img">
-
-                <img src="https://judydoll.com/cdn/shop/files/800_4880c120-81a6-47e6-8522-b6601276ee9b_360x.webp?v=1713420522" alt="" class="main_img">
-                <div class="see_more d-flex flex-column">
-                    <img src="https://judydoll.com/cdn/shop/files/1_66639409-9e3f-42fe-85ca-754cd0628ab8_360x.webp?v=1713420522" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                    <button class="add_cart">ADD TO CART</button>
-                    <button class="quicl_view">Quick View</button>
-
-                </div>
-            </div>
-            <div class="name_product">
-                <h5>Phấn Mắt JUDYDOLL 4 Màu</h5>
-                <div class="price">215000 đ</div>
-            </div>
-        </a>
-
-    </div>
-    <div class="hot_product d-flex">
-        <a href="">
-            <div class="hot_product-img">
-
-                <img src="https://judydoll.com/cdn/shop/files/8_3e66643e-092c-41f6-929c-da81d418ba3b_360x.webp?v=1713867279" alt="" class="main_img">
-                <div class="see_more d-flex flex-column">
-                    <img src="https://judydoll.com/cdn/shop/files/7_599c09fd-fe3f-4948-abc0-a2e351d302a2_360x.webp?v=1713867280" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                    <button class="add_cart">ADD TO CART</button>
-                    <button class="quicl_view">Quick View</button>
-
-                </div>
-            </div>
-            <div class="name_product">
-                <h5>Kem Chống Nắng Chống Tia UV 50+</h5>
-                <div class="price">299000 đ</div>
-            </div>
-        </a>
-
-    </div>
-</div>
-</div>
-<div class=" footer w-100 mt-4">
-    <div class="footer_list d-flex">
-        <div class="footer_items d-flex flex-column col-3">
-            <span>Customer Service:</span>
-            <span>cservice@joy-group.com</span>
-        </div>
-        <div class="footer_item d-flex flex-column col-3">
-            <h5>INFORMATIONS</h5>
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Tracking Oder</a></li>
-                <li><a href="">Official Statement</a></li>
-            </ul>
-        </div>
-        <div class="footer_item d-flex flex-column col-3">
-            <h5>POLICY</h5>
-            <ul>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Return and Refund</a></li>
-                <li><a href="">Shipping</a></li>
-                <li><a href="">Terms Of Service</a></li>
-            </ul>
-        </div>
-        <div class="footer_item d-flex flex-column col-3">
-            <h5>FOLLOW US</h5>
-            <div class="link_ig d-flex">
+    <div class="container Recently_Viewed-Products ">
+        <h3>Recently Viewed Products</h3>
+        <div class="product_list d-flex">
+            <div class="hot_product d-flex">
                 <a href="">
-                    <i class="fa-brands fa-instagram"></i>
+                    <div class="hot_product-img">
+
+                        <img src="./img/hot search/pm2.png" alt="" class="main_img">
+                        <div class="see_more d-flex flex-column">
+                            <img src="./img/hot search/pm2hv.png" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                            <button class="add_cart">ADD TO CART</button>
+                            <button class="quicl_view">Quick View</button>
+
+                        </div>
+                    </div>
+                    <div class="name_product">
+                        <h5>Bảng Phấn Tạo Khối JJUDYDOLL 5 ô</h5>
+                        <div class="price">170000 đ</div>
+                    </div>
                 </a>
-                <a href="">
-                    <i class="fa-brands fa-tiktok"></i>
-                </a>
+
             </div>
 
-            <h5>NEWSLETTER SIGN UP</h5>
-            <span>Receive our latest updates about our products and promotions.</span>
+            <div class="hot_product d-flex">
+                <a href="">
+                    <div class="hot_product-img">
 
-            <div class="sign_btn d-flex">
-                <input type="email" name="" id="" placeholder="enter email address">
-                <button class="submit_btn">SUBMIT</button>
+                        <img src="https://judydoll.com/cdn/shop/files/1-800_970681af-1933-467d-8dd0-54e19b51636a_360x.webp?v=1706002681"
+                            alt="" class="main_img">
+                        <div class="see_more d-flex flex-column">
+                            <img src="https://judydoll.com/cdn/shop/files/800_43fb9bad-4d5b-450b-b395-d0980db78028_360x.webp?v=1706002680"
+                                alt="">
+                            <i class="fa-regular fa-heart"></i>
+                            <button class="add_cart">ADD TO CART</button>
+                            <button class="quicl_view">Quick View</button>
+
+                        </div>
+                    </div>
+                    <div class="name_product">
+                        <h5>5Pcs Cọ Make Up Chuyên Nghiệp </h5>
+                        <div class="price">59000 đ</div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="hot_product d-flex">
+                <a href="">
+                    <div class="hot_product-img">
+
+                        <img src="https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_2_360x.webp?v=1702979825"
+                            alt="" class="main_img">
+                        <div class="see_more d-flex flex-column">
+                            <img src="https://judydoll.com/cdn/shop/files/HugSeries-CushionLipPowderCream_1_360x.webp?v=1702979825"
+                                alt="">
+                            <i class="fa-regular fa-heart"></i>
+                            <button class="add_cart">ADD TO CART</button>
+                            <button class="quicl_view">Quick View</button>
+
+                        </div>
+                    </div>
+                    <div class="name_product">
+                        <h5>Son JUDYDOLL RedPuppy</h5>
+                        <div class="price">209000 đ</div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="hot_product d-flex">
+                <a href="">
+                    <div class="hot_product-img">
+
+                        <img src="https://judydoll.com/cdn/shop/files/800_4880c120-81a6-47e6-8522-b6601276ee9b_360x.webp?v=1713420522"
+                            alt="" class="main_img">
+                        <div class="see_more d-flex flex-column">
+                            <img src="https://judydoll.com/cdn/shop/files/1_66639409-9e3f-42fe-85ca-754cd0628ab8_360x.webp?v=1713420522"
+                                alt="">
+                            <i class="fa-regular fa-heart"></i>
+                            <button class="add_cart">ADD TO CART</button>
+                            <button class="quicl_view">Quick View</button>
+
+                        </div>
+                    </div>
+                    <div class="name_product">
+                        <h5>Phấn Mắt JUDYDOLL 4 Màu</h5>
+                        <div class="price">215000 đ</div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="hot_product d-flex">
+                <a href="">
+                    <div class="hot_product-img">
+
+                        <img src="https://judydoll.com/cdn/shop/files/8_3e66643e-092c-41f6-929c-da81d418ba3b_360x.webp?v=1713867279"
+                            alt="" class="main_img">
+                        <div class="see_more d-flex flex-column">
+                            <img src="https://judydoll.com/cdn/shop/files/7_599c09fd-fe3f-4948-abc0-a2e351d302a2_360x.webp?v=1713867280"
+                                alt="">
+                            <i class="fa-regular fa-heart"></i>
+                            <button class="add_cart">ADD TO CART</button>
+                            <button class="quicl_view">Quick View</button>
+
+                        </div>
+                    </div>
+                    <div class="name_product">
+                        <h5>Kem Chống Nắng Chống Tia UV 50+</h5>
+                        <div class="price">299000 đ</div>
+                    </div>
+                </a>
+
             </div>
         </div>
     </div>
-</div>
+    <div class=" footer w-100 mt-4">
+        <div class="footer_list d-flex">
+            <div class="footer_items d-flex flex-column col-3">
+                <span>Customer Service:</span>
+                <span>cservice@joy-group.com</span>
+            </div>
+            <div class="footer_item d-flex flex-column col-3">
+                <h5>INFORMATIONS</h5>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Tracking Oder</a></li>
+                    <li><a href="">Official Statement</a></li>
+                </ul>
+            </div>
+            <div class="footer_item d-flex flex-column col-3">
+                <h5>POLICY</h5>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Return and Refund</a></li>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">Terms Of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer_item d-flex flex-column col-3">
+                <h5>FOLLOW US</h5>
+                <div class="link_ig d-flex">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
 
-       
+                <h5>NEWSLETTER SIGN UP</h5>
+                <span>Receive our latest updates about our products and promotions.</span>
+
+                <div class="sign_btn d-flex">
+                    <input type="email" name="" id="" placeholder="enter email address">
+                    <button class="submit_btn">SUBMIT</button>
+                </div>
+            </div>
+        </div>
     </div>
 
+
 </div>
+
+
 
 
 
@@ -482,5 +579,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="app.js"></script>
 <script src="data.js"></script>
+</body>
+
 
 </html>

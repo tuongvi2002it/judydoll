@@ -115,7 +115,7 @@ typePrd:"Masacra",
         id: 45,
         name: "5 Shades Concealer Palette - #01 Light Tone",
         price: 275000,
-
+typePrd:"Phấn Mắt",
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1_30e86511-8321-4bf2-bee8-5395d456e5fb_360x.webp?v=1706085311",
         hover_img: "https://judydoll.com/cdn/shop/files/02_66b934a3-c7a5-47dd-b577-dac10b1a729a_360x.webp?v=1706085311"
     },
@@ -162,6 +162,7 @@ typePrd:"Masacra",
         id: 43,
         name: "Chì Kẻ Mày Ultra-Fine Eyebrow Pencil ",
         price: 117000,
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/Ultra-FineEyebrowPencil_15_360x.webp?v=1701763115",
         hover_img: "https://judydoll.com/cdn/shop/files/Ultra-FineEyebrowPencil_1_360x.webp?v=1701763116"
@@ -171,6 +172,8 @@ typePrd:"Masacra",
         id: 46,
         name: "Phấn Che Chân Tóc Hair Shadow  ",
         price: 215000,
+typePrd:"Phấn Phủ",
+typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/800-2_11033e63-cff9-40d5-a8f5-83fb6bf6f156_360x.webp?v=1698915658",
         hover_img: "https://judydoll.com/cdn/shop/files/800-4_fcee518a-30d9-45d2-a895-629ee86ae5b0_360x.webp?v=1698915660"
@@ -200,6 +203,7 @@ typePrd:"Highlight",
         name: "Kem Nền Icy Americano Oil Control Primer",
         price: 290000,
         typePrd:"Kem Nền",
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_a392fe01-7ba0-4909-8624-66c5ca70453d_360x.webp?v=1709619302",
         hover_img: "https://judydoll.com/cdn/shop/files/909eaebc65ccd26ec4b3dfcf9e76c5dc_360x.webp?v=1709619302"
@@ -229,6 +233,7 @@ typePrd:"Highlight",
         name: "Ultra-fine Eyeliner Gel Pen - #01 Black Brown ",
         price: 140000,
         typePrd: "Eyeliner",
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_1_1149160b-96a0-4001-bc93-94b338c468c8_360x.webp?v=1713781077",
         hover_img: "https://judydoll.com/cdn/shop/files/800_2_7bf84c50-fd8f-4d0a-9415-ae5cc35fadbb_360x.webp?v=1713781075"
@@ -265,6 +270,7 @@ typePrd:"Highlight",
         name: "2 In 1 Eyeliner Eyebrow Gel",
         price: 190000,
         typePrd: "Eyeliner",
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1-min_1c707c21-2c78-46b1-9ed2-9b55b2664f01_360x.jpg?v=1688961961",
         hover_img: "https://judydoll.com/cdn/shop/files/800_800-4-min_535933fb-76b6-408e-b8c5-c512979f48a9_360x.jpg?v=1688961989"
@@ -274,6 +280,8 @@ typePrd:"Highlight",
         name: "Son Sweety Lip Jelly - N00 Nude Brown ",
         price: 240000,
         typePrd: "Son",
+        typePrd:"Best Seller",
+
         main_img: "https://judydoll.com/cdn/shop/files/1-800_4b604ac3-8f06-4e13-87eb-257801f60bc8_360x.jpg?v=1705386893",
         hover_img: "https://judydoll.com/cdn/shop/files/W08_360x.jpg?v=1705386893"
     },
@@ -291,6 +299,7 @@ typePrd:"Highlight",
         id: 8,
         name: "Son Hearty Lip Tint - #01 Pure Water",
         price: 215000,
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/1_1_4e33b0de-95c1-4663-95fc-88bae9e72359_360x.webp?v=1698301931",
         hover_img: "https://judydoll.com/cdn/shop/files/1_4_d23f6ab9-ff3b-47ce-9c39-0f2942840eb9_360x.webp?v=1698301932"
@@ -319,6 +328,8 @@ typePrd:"Highlight",
         name: "Son Matte Lipstick - #01 Powder Apricot",
         price: 270000,
         typePrd: "Son",
+        typePrd:"Best Seller",
+
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1-min_8b8ef5cf-ca5a-4aec-bbed-cbd65dadf1bf_360x.jpg?v=1691039750",
         hover_img: "https://judydoll.com/cdn/shop/files/min_f5e38e00-5a67-4eac-bb16-268dd40e0abb_360x.jpg?v=1691039752"
     },
@@ -356,6 +367,7 @@ typePrd:"Highlight",
         name: "Phấn Má Hug Series-Cushion Blush",
         price: 200000,
         typePrd:"Phấn Má",
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/judydollhugseriescushionblush_22_360x.webp?v=1702977667",
         hover_img: "https://judydoll.com/cdn/shop/files/judydollhugseriescushionblush_1_360x.webp?v=1702977668"
@@ -386,6 +398,7 @@ typePrd:"Highlight",
         name: "Dual-Color Highlight - #01 Cold Moonlight",
         price: 180000,
         typePrd:"Highlight",
+   
 
         main_img: "https://judydoll.com/cdn/shop/products/800-_-min_b279b86c-83a4-477d-9220-46d8a534aa40_360x.jpg?v=1682653810",
         hover_img: "https://judydoll.com/cdn/shop/products/19_78d0b6ac-699e-4da9-95e4-d62c431cb700_360x.jpg?v=1682653810"
@@ -393,6 +406,15 @@ typePrd:"Highlight",
     
     {
         id: 35,
+        name: "Phấn Má Blush Duo - #D01 Pink Coast",
+        price: 210000,
+        typePrd:"Phấn Má",
+
+        main_img: "https://judydoll.com/cdn/shop/products/800_800-1_6b41c049-bf29-4bf2-9f23-e42632262c1b_360x.jpg?v=1682653697",
+        hover_img: "https://judydoll.com/cdn/shop/products/10_abe36a81-23c0-4097-bf59-876cf500604b_360x.jpg?v=1682653697"
+    },
+    {
+        id: 66,
         name: "Phấn Má Blush Duo - #D01 Pink Coast",
         price: 210000,
         typePrd:"Phấn Má",
@@ -416,6 +438,8 @@ typePrd:"Highlight",
         name: "Phấn Mắt 5 Shades Concealer Palette",
         price: 325000,
         typePrd: "Phấn Mắt",
+        typePrd:"Best Seller",
+
         main_img: "https://judydoll.com/cdn/shop/files/800_800-1_30e86511-8321-4bf2-bee8-5395d456e5fb_360x.webp?v=1706085311",
         hover_img: "https://judydoll.com/cdn/shop/files/02_66b934a3-c7a5-47dd-b577-dac10b1a729a_360x.webp?v=1706085311"
     },
@@ -434,6 +458,7 @@ typePrd:"Highlight",
         name: "Phấn Mắt 10 Shades Multi-Functional Eyeshadow Palette",
         price: 320000,
         typePrd: "Phấn Mắt",
+        typePrd:"Best Seller",
         main_img: "https://judydoll.com/cdn/shop/products/800-_-min_360x.png?v=1682591376",
         hover_img: "https://judydoll.com/cdn/shop/products/1_c3d845c5-62a0-493a-a907-786ab42ad299_360x.jpg?v=1682591376"
     },
@@ -460,6 +485,7 @@ typePrd:"Highlight",
         name: "Mascara Remover",
         price: 180000,
         typePrd:"Masacra",
+        typePrd:"Best Seller",
 
         main_img: "https://judydoll.com/cdn/shop/files/1-800-min_dc32b02e-1bb3-4341-807e-7cf8bc3ce2d1_360x.jpg?v=1690426398",
         hover_img: "https://judydoll.com/cdn/shop/files/min_ef2ccfb9-b52c-4e1f-a2ef-2ed379c81428_360x.jpg?v=1690426398"
@@ -506,7 +532,7 @@ const renderProductItem = (params) => {
 }
 
 renderProductItem(dataProducts);
-////lọc 
+////lọc theo tên
 
 
 
@@ -525,3 +551,14 @@ function filterProducts() {
 
   renderProductItem(filteredProducts);
 }
+
+
+
+// ///lọc theo giá
+// let priceFilter = document.getElementById("priceFilter");
+// priceFilter.addEventListener("change",filterPrice);
+
+// function filterPrice(){
+//    let filteredPrice = priceFilter.value;
+//    if()
+// }
