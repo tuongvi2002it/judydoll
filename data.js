@@ -506,7 +506,9 @@ typePrd:"Highlight",
 const listProduct = document.querySelector(".new_content-right")
 
 const renderProductItem = (params) => {
-    listProduct.innerHTML = params
+    listProduct.innerHTML = 
+    // đoạn này nó 
+    params
         .map((item) => {
             return `
           <div class="hot_product d-flex" data-price="${item.price}">
@@ -554,11 +556,4 @@ function filterProducts() {
 
 
 
-// ///lọc theo giá
-// let priceFilter = document.getElementById("priceFilter");
-// priceFilter.addEventListener("change",filterPrice);
-
-// function filterPrice(){
-//    let filteredPrice = priceFilter.value;
-//    if()
-// }
+/// next trang

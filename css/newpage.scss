@@ -224,6 +224,9 @@ display: none !important;
 }
 .link_home{
     gap: 20px;
+    span{
+        color: darkgrey;
+    }
     a{
         color: darkgray;
     }
@@ -234,4 +237,7 @@ display: none !important;
 }
 .list_hotpro{
     gap: 30px;
+}
+.button_page{
+    justify-content: center;
 }

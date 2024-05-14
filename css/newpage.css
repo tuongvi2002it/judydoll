@@ -223,6 +223,9 @@ input[type=range]::-webkit-slider-thumb {
 .link_home {
   gap: 20px;
 }
+.link_home span {
+  color: darkgrey;
+}
 .link_home a {
   color: darkgray;
 }
@@ -232,4 +235,8 @@ input[type=range]::-webkit-slider-thumb {
 
 .list_hotpro {
   gap: 30px;
+}
+
+.button_page {
+  justify-content: center;
 }/*# sourceMappingURL=newpage.css.map */

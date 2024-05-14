@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.wrapper {
+  background-color: #fffefe;
+}
+
+.products_content-left {
+  overflow: hidden;
+  position: relative;
+}
+.products_content-left .product_slider {
+  padding: 0 5%;
+}
+.products_content-left .slider-for .slick-arrow {
+  display: none !important;
+}
+.products_content-left .slider-nav .slick-list {
+  padding: 0 !important;
+}
+.products_content-left .slider-nav .chooseimg.active {
+  border: 2px #d68183 solid;
+}
+
+.star-rating {
+  display: inline-block;
+}
+
+.star-rating input[type=radio] {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 30px;
+  color: #fbda06;
+  cursor: pointer;
+  float: right;
+}
+
+.star-rating label:before {
+  content: "★";
+}
+
+.star-rating input[type=radio]:checked ~ label {
+  color: #ffcc00;
+}
+
+.sold_out {
+  gap: 2%;
+  color: #d68183;
+}
+
+.icon-fire {
+  width: 18px;
+  fill: #d68183;
+}
+
+.price_products {
+  font-size: 28px;
+  text-align: left;
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.color_select {
+  padding: 2%;
+  background-color: #ffffff;
+  border: 1px #aaa solid;
+}
+
+.color_select.click {
+  border: 2px #d68183 solid;
+}
+
+.list_quaty {
+  padding-top: 5%;
+  gap: 5%;
+}
+.list_quaty a {
+  padding: 2%;
+  font-size: 22px;
+}
+.list_quaty .add_cart {
+  width: 45%;
+  font-size: 14px;
+  padding: 3% 5%;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  background-color: #d68183;
+}
+.list_quaty .add_cart:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid;
+}
+
+.slider-nav .slider-for img {
+  width: 100%;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 30px;
+  text-align: center;
+  height: 65%;
+}
+
+.minus-btn, .plus-btn {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  padding: 5px 10px;
+  border: 1px #aaa solid;
+}
+
+.name_review {
+  align-items: baseline;
+}
+.name_review h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 0;
+}
+
+.fa-heart {
+  padding: 3%;
+  font-size: 22px;
+  color: #cec8c8;
+}
+
+.buy_payall {
+  background-color: #fbda06;
+  border: none;
+}
+.buy_payall span {
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(61, 61, 171);
+}
+.buy_payall svg {
+  width: 10%;
+}
+.buy_payall:hover {
+  background-color: #fdcc07;
+}
+
+.payment {
+  margin: 36%;
+  text-decoration: underline;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.ship_cod-items .title_ship {
+  align-items: center;
+  gap: 3%;
+}
+.ship_cod-items .title_ship span {
+  font-weight: 600;
+}
+.ship_cod-items .content_ship {
+  padding-left: 7%;
+  color: #979797;
+}
+
+.fa-circle-info {
+  color: #979797;
+}/*# sourceMappingURL=detail.css.map */
